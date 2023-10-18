@@ -1,0 +1,100 @@
+/* styles.css */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2; /* Set your desired background color */
+  }
+  
+  /* Homepage container */
+  .homepage {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Top header with logos and heading */
+  .top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; /* Set your desired background color */
+    color: #fff; /* Text color */
+    padding: 10px 0;
+  }
+  
+  .logo {
+    width: 50px; /* Adjust the logo size as needed */
+    height: 50px;
+    margin: 0 10px;
+  }
+  
+  /* Rolling photo frame (add styles as needed) */
+  .rolling-photo-frame {
+    margin: 20px 0;
+  }
+  
+  /* Navbar */
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+  
+  .navbar li {
+    margin: 0 20px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #333; /* Link color */
+    font-weight: bold;
+  }
+  
+  /* Paragraph space */
+  p {
+    margin: 20px 0;
+    font-size: 18px;
+    line-height: 1.4;
+  }
+  
+  /* Two paragraphs side by side */
+  .two-paragraphs {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  .paragraph {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .paragraph img {
+    max-width: 100%; /* Ensure the image fits within its container */
+    height: auto;
+  }
+  
+  /* Recent activities */
+  .recent-activities {
+    margin: 20px 0;
+    /* Add styles for the recent activities section and rolling photos */
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333; /* Footer background color */
+    color: #fff; /* Text color */
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  /* Contact details */
+  footer h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Additional styling can be added as needed */
