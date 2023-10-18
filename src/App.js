@@ -44,7 +44,7 @@ function App() {
           </p>
         </div>
         <div className="paragraph">
-        <img src='#' alt="pic 1" height={300}/>
+        <img src={img1} alt="pic 1" height={300}/>
           <p>lorem100
             lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
             lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut

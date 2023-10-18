@@ -39,23 +39,10 @@
   }
 }
 
-.footer{
-  position: relative;
-  bottom: 0;
-  width: 100%;
-  left: 0;
-  height: 30px;
-}
 
-.homepage{
-  padding: -20;
-}
 
-.top-header{
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-}
+
+
 
 
 
