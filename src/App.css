@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -22,6 +23,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  
 }
 
 .App-link {
@@ -36,4 +38,25 @@
     transform: rotate(360deg);
   }
 }
+
+.footer{
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  height: 30px;
+}
+
+.homepage{
+  padding: -20;
+}
+
+.top-header{
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+
+
 
