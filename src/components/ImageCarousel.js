@@ -7,16 +7,21 @@ import img2 from './images/image2.jpg';
 import img3 from './images/image3.jpg';
 
 const ImageCarousel = () => {
+  const imgstyle = {
+    height: "200px",
+    width: "200px",
+    overflow: "hidden"
+  }
   return (
     <Carousel autoPlay infiniteLoop showThumbs={false}>
       <div>
-        <img src={img1} alt="Image 1" height={300} width={200} />
+        <img src="image1.jpg" alt="Image 1" style={imgstyle} />
       </div>
       <div>
-        <img src={img2} alt="Image 2" height={300} />
+        <img src="image2.jpg" alt="Image 2" style={imgstyle} />
       </div>
       <div>
-        <img src={img3} alt="Image 3" height={300} />
+        <img src="image3.jpg" alt="Image 3" style={imgstyle} />
       </div>
     </Carousel>
   );
