@@ -1,0 +1,51 @@
+.activities-carousel {
+  text-align: center;
+  padding: 20px;
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.slide {
+  width: 100%;
+  flex-shrink: 0;
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: all 0.5s;
+  padding: 10px;
+}
+
+.slide.active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.carousel-control {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 2rem;
+  padding: 10px;
+}
+
+.carousel-control.prev {
+  position: absolute;
+  left: 0;
+}
+
+.carousel-control.next {
+  position: absolute;
+  right: 0;
+}
