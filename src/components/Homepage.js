@@ -1,7 +1,9 @@
 import React from 'react'
 // import { BrowserRouter as  Link } from 'react-router-dom';
 import ImageCarousel from './ImageCarousel';
-import "../styles.css"
+import "../styles.css";
+import img1 from './images/image1.jpg';
+import img2 from './images/image2.jpg';
 
 export default function Homepage() {
   return (
@@ -31,12 +33,19 @@ export default function Homepage() {
 
         <div className="two-paragraphs">
           <div className="paragraph">
-            <img src="#" alt="pic 1" />
-            <p>Paragraph 1 text</p>
+            <img src={img1} alt="pic 1" />
+            <p>lorem100
+              lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore magna aliqua.lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidid
+              lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidid
+            </p>
           </div>
           <div className="paragraph">
-            <img src="#" alt="pic 2" />
-            <p>Paragraph 2 text</p>
+            <img src={img2} alt="pic 2" />
+            <p>Paragraphlorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidid
+            lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididlorem ipsum dolor sit amet,
+             consectetur adipiscing elit, sed do eiusmod tempor incidid 2 text
+             </p>
           </div>
         </div>
 

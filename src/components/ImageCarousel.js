@@ -5,23 +5,33 @@ import { Carousel } from 'react-responsive-carousel';
 import img1 from './images/image1.jpg';
 import img2 from './images/image2.jpg';
 import img3 from './images/image3.jpg';
+import '../styles.css';
 
 const ImageCarousel = () => {
   const imgstyle = {
-    height: "200px",
-    width: "200px",
-    overflow: "hidden"
+    height: "250px",
+    width: "32%",
+    overflow: "hidden",
+    margin: "0.3%",
+  
+  
   }
   return (
     <Carousel autoPlay infiniteLoop showThumbs={false}>
-      <div>
-        <img src="image1.jpg" alt="Image 1" style={imgstyle} />
+      <div className='slide'>
+        <img src={img1} alt="Image 1" style={imgstyle} />
+        <img src={img2} alt="Image 2" style={imgstyle} />
+        <img src={img3} alt="Image 3" style={imgstyle} />
       </div>
-      <div>
-        <img src="image2.jpg" alt="Image 2" style={imgstyle} />
+      <div className='slide'>
+        <img src={img2} alt="Image 2" style={imgstyle} />
+        <img src={img1} alt="Image 1" style={imgstyle} />
+        <img src={img3} alt="Image 3" style={imgstyle} />
       </div>
-      <div>
-        <img src="image3.jpg" alt="Image 3" style={imgstyle} />
+      <div className='slide'>
+        <img src={img3} alt="Image 3" style={imgstyle} />
+        <img src={img1} alt="Image 1" style={imgstyle} />
+        <img src={img2} alt="Image 2" style={imgstyle} />
       </div>
     </Carousel>
   );

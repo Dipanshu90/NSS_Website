@@ -83,7 +83,7 @@ body {
   }
   
   .paragraph img {
-    max-width: 50%; /* Ensure the image fits within its container */
+    max-width: 40%; /* Ensure the image fits within its container */
     height: auto;
     border-radius: 6px;
   }
@@ -112,5 +112,16 @@ body {
     font-size: 24px;
     margin-bottom: 10px;
   }
+
+  .slide{
+    padding: 0;
+    
+  }
+
+  .slide img{
+    border-radius: 6px;
+  }
+
+  
   
   /* Additional styling can be added as needed */
