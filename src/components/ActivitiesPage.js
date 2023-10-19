@@ -32,24 +32,24 @@ const ActivitiesCarousel = () => {
   };
 
   return (
-    <div className="activities-carousel">
+    <div className="activities-carousel_">
       <h2>Activities</h2>
-      <div className="carousel">
+      <div className="carousel_">
         {activitiesData.map((activity, index) => (
           <div
             key={index}
-            className={`slide ${index === activeIndex ? 'active' : ''}`}
+            className={`slide_ ${index === activeIndex ? 'active_' : ''}`}
           >
-            <div className="card">
+            <div className="card_">
               <h3>{activity.title}</h3>
               <p>{activity.content}</p>
             </div>
           </div>
         ))}
-        <button className="carousel-control prev" onClick={prevSlide}>
+        <button className="carousel-control_ prev_" onClick={prevSlide}>
           &lsaquo;
         </button>
-        <button className="carousel-control next" onClick={nextSlide}>
+        <button className="carousel-control_ next_" onClick={nextSlide}>
           &rsaquo;
         </button>
       </div>

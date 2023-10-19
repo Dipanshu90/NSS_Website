@@ -3,22 +3,21 @@ import { createBrowserRouter,RouterProvider } from 'react-router-dom';
 import './App.css';
 import "./styles.css";
 import Homepage from './components/Homepage';
-import ImageCarousel from './components/ImageCarousel';
-import logo1 from './components/images/logo.png';
-import img1 from './components/images/image1.jpg';
-import img2 from './components/images/image2.jpg';
+import ActivitiesPage from "./components/ActivitiesPage";
 
 function App() {
-  const HomeRouter=createBrowserRouter([
+  const Router=createBrowserRouter([
     {
       path: "/",
       element: <Homepage />
+    },
+    {
+      path: "/activities",
+      element: <ActivitiesPage />
     }
   ]);
   return (
-    <body>
-      <RouterProvider router={HomeRouter}/>
-    </body>
+    <RouterProvider router={Router}/>
   );
 }
 

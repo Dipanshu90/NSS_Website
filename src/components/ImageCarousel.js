@@ -13,25 +13,23 @@ const ImageCarousel = () => {
     width: "32%",
     overflow: "hidden",
     margin: "0.3%",
-  
-  
   }
   return (
     <Carousel autoPlay infiniteLoop showThumbs={false}>
       <div className='slide'>
-        <img src={img1} alt="Image 1" style={imgstyle} />
-        <img src={img2} alt="Image 2" style={imgstyle} />
-        <img src={img3} alt="Image 3" style={imgstyle} />
+        <img src={img1} alt="im 1" style={imgstyle} />
+        <img src={img2} alt="Im 2" style={imgstyle} />
+        <img src={img3} alt="Im 3" style={imgstyle} />
       </div>
       <div className='slide'>
-        <img src={img2} alt="Image 2" style={imgstyle} />
-        <img src={img1} alt="Image 1" style={imgstyle} />
-        <img src={img3} alt="Image 3" style={imgstyle} />
+        <img src={img2} alt="Im 2" style={imgstyle} />
+        <img src={img1} alt="Im 1" style={imgstyle} />
+        <img src={img3} alt="Im 3" style={imgstyle} />
       </div>
       <div className='slide'>
-        <img src={img3} alt="Image 3" style={imgstyle} />
-        <img src={img1} alt="Image 1" style={imgstyle} />
-        <img src={img2} alt="Image 2" style={imgstyle} />
+        <img src={img3} alt="Im 3" style={imgstyle} />
+        <img src={img1} alt="Im 1" style={imgstyle} />
+        <img src={img2} alt="Im 2" style={imgstyle} />
       </div>
     </Carousel>
   );

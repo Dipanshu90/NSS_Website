@@ -4,14 +4,16 @@ import ImageCarousel from './ImageCarousel';
 import "../styles.css";
 import img1 from './images/image1.jpg';
 import img2 from './images/image2.jpg';
+import logo1 from './images/IIT_Guwahati_Logo.svg.webp';
+import logo2 from "./images/NSS_IITG_logo.jpeg";
 
 export default function Homepage() {
   return (
     <div className="homepage">
         <div className="top-header">
-          <img src="logo1.png" alt="Logo 1" className="logo" />
+          <img src={logo2} alt="Logo 1" className="logo" />
           <h1>Your Heading</h1>
-          <img src="logo2.png" alt="Logo 2" className="logo" />
+          <img src={logo1} alt="Logo 2" className="logo" />
         </div>
 
         <div className="rolling-photo-frame">
@@ -20,16 +22,20 @@ export default function Homepage() {
 
         <nav className="navbar">
           <ul>
-            <li>Home</li> 
-            {/* <li><Link to="/activities">Activities</Link></li>
-            <li><Link to="/notices">Notices</Link></li>
-            <li><Link to="/reports">Reports</Link></li>
-            <li><Link to="/team">Team</Link></li>
-            <li><Link to="/utilities">Utilities</Link></li> */}
+            <li><a href="/" >Home</a></li> 
+            <li><a href="/activities" >Activities</a></li>
+            <li><a href="/" >Notices</a></li>
+            <li><a href="/" >Reports</a></li>
+            <li><a href="/" >Team</a></li>
+            <li><a href="/" >Utilities</a></li>
           </ul>
         </nav>
 
-        <p>Some paragraph space content</p>
+        <p>Paragraphlorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidid
+            lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididlorem ipsum dolor sit amet,
+             consectetur adipiscing elit, sed do eiusmod tempor incidid 2 text aragraphlorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidid
+            lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididlorem ipsum dolor sit amet,
+             consectetur adipiscing elit, sed do eiusmod tempor incidid 2 text</p>
 
         <div className="two-paragraphs">
           <div className="paragraph">
