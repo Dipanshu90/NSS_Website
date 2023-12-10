@@ -1,5 +1,5 @@
 import React from 'react'
-// import { BrowserRouter as  Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import ImageCarousel from './ImageCarousel';
 import "../styles.css";
 import img1 from './images/image1.jpg';
@@ -22,12 +22,12 @@ export default function Homepage() {
 
         <nav className="navbar">
           <ul>
-            <li><a href="/" >Home</a></li> 
-            <li><a href="/activities" >Activities</a></li>
-            <li><a href="/" >Notices</a></li>
-            <li><a href="/" >Reports</a></li>
-            <li><a href="/" >Team</a></li>
-            <li><a href="/" >Utilities</a></li>
+            <li><NavLink to="/" >Home</NavLink></li>
+            <li><NavLink to="/activities" >Activities</NavLink></li>
+            <li><NavLink to="/notices" >Notices</NavLink></li>
+            <li><NavLink to="/reports" >Reports</NavLink></li>
+            <li><NavLink to="/team" >Team</NavLink></li>
+            <li><NavLink to="/utilities" >Utilities</NavLink></li>
           </ul>
         </nav>
 
